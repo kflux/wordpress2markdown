@@ -24,7 +24,7 @@ while ( $query->have_posts() ) : $query->the_post();
     foreach (get_the_category() as $cat) {
         $cats[] = $cat->cat_name;
     }
-    $content .= implode(', ', $cats);
+    $content .= implode(', ', $cats) . PHP_EOL;
     
     // get tags
     $posttags = get_the_tags();

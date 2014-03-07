@@ -15,7 +15,7 @@ small php script to export all WordPress posts to Markdown textfiles (Pelican co
         
 3. call the `export.php` with your browser or use the commandline
 
-4. the `wordpress2markdown` folder will be populated with textfiles named `your-article-slug.md`
+4. the `wordpress2markdown` folder will be populated with textfiles named `your-article-slug.md` - make sure your posts have unique titles!
 
 
 enjoy!

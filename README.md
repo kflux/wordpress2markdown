@@ -1,7 +1,7 @@
 wordpress2markdown
 ==================
 
-small php script to export all WordPress posts to Markdown textfiles (Pelican compatible)
+small php script to export all WordPress posts to Markdown textfiles (Pelican compatible - http://getpelican.com/)
 
 1. REQUIRED: you need to place the `HTML_To_Markdown.php` script into the `wordpress2markdown` folder. make sure to get the newest one at https://github.com/nickcernis/html-to-markdown/
 

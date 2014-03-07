@@ -1,6 +1,5 @@
 <?php
 
-
 header('Content-Type: text/html; charset=UTF-8');
 
 require_once('HTML_To_Markdown.php');
@@ -9,7 +8,7 @@ require_once('../wp-load.php');
 $args = array(
     'post_type' => 'post',
     'post_status' => 'publish',
-    'posts_per_page' => -1 //uncomment this to get all posts
+    'posts_per_page' => -1
 );
 
 $query = new WP_Query($args);
